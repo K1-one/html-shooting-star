@@ -1,0 +1,63 @@
+@keyframes position{
+    0%{ top: -12%; left: -10%; filter: blur(0px); opacity: 1;}
+    25%{filter: blur(0.7px); filter:}
+    80%{opacity: 0.9; filter: blur(1px);}
+    100%{ top: 78%; left: 80%; opacity: 0; filter: blur(10px);}
+}
+@keyframes position2{
+    0%{top: -14%; left: 8%; filter: blur(0px); opacity: 1;}
+     25%{filter: blur(1px),}
+    80%{opacity: 0.9; filter: blur(1px);}
+    100%{top: 70%; left: 85%; opacity: 0; filter: blur(10px), ;}
+}
+@keyframes position3{
+    0%{top: 15%; left: -10%; filter: blur(0px); opacity: 1;}
+     25%{filter: blur(0.8px);}
+    80%{opacity: 0.9; filter: blur(1px);}
+    100%{top: 88%; left: 78%; opacity: 0; filter: blur(10px);}
+}
+
+.anim{
+    animation-name: position;
+    animation-iteration-count: infinite;
+    animation-duration: 14s;
+    position: absolute;
+    background-color: transparent;
+    animation-timing-function: linear;
+}
+.anim2{
+    animation-name: position2;
+    animation-iteration-count: infinite;
+    animation-duration: 18s;
+    position: absolute;
+    background-color: transparent;
+    animation-timing-function: linear;
+}
+.animstar2{
+    opacity: 0;
+    animation-name: position2;
+    animation-iteration-count: 3;
+    animation-duration: 18s;
+    animation-delay: 30s;
+    position: absolute;
+    background-color: transparent;
+    animation-timing-function: linear;
+}
+.anim3{
+    animation-name: position3;
+    animation-iteration-count: infinite;
+    animation-duration: 19s;
+    position: absolute;
+    background-color: transparent;
+    animation-timing-function: linear;
+}
+.animstar3{
+    opacity: 0;
+    animation-name: position3;
+    animation-iteration-count: 3;
+    animation-delay: 45s;
+    animation-duration: 19s;
+    position: absolute;
+    background-color: transparent;
+    animation-timing-function: linear;
+}
